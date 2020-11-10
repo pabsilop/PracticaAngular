@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CorreoComponent } from './correo.component';
+import { NuevoCorreoComponent } from './nuevo-correo.component';
 
-describe('CorreoComponent', () => {
-  let component: CorreoComponent;
-  let fixture: ComponentFixture<CorreoComponent>;
+describe('NuevoCorreoComponent', () => {
+  let component: NuevoCorreoComponent;
+  let fixture: ComponentFixture<NuevoCorreoComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ CorreoComponent ]
+      declarations: [ NuevoCorreoComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(CorreoComponent);
+    fixture = TestBed.createComponent(NuevoCorreoComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "proyectoPabloSilvaLopez"
+    }
+  },
+  "defaultProject": "proyectoPabloSilvaLopez",
+  "cli": {
+    "analytics": false
+  }
 }
